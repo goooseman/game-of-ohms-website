@@ -6,8 +6,9 @@ import logo from 'images/logo.svg';
 export const IndexSlideOne = () => (
   <div className={classes['container']} style={{backgroundImage: `url(${bg})`}}>
     <div className={classes['bg']}>
-      <video id="index-video" autoPlay muted loop poster='/bg.jpg'>
+      <video id='index-video' autoPlay muted loop poster='/bg.jpg'>
         <source src='/bg.mp4' type='video/mp4' />
+        <source src='/bg.webm' type='video/webm' />
       </video>
     </div>
     <div className={classes['center']}>
