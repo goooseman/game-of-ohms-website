@@ -1,14 +1,14 @@
 {
-  "name": "react-redux-starter-kit",
-  "version": "3.0.0-alpha.2",
-  "description": "Get started with React, Redux, and React-Router!",
+  "name": "game-of-ohms-website",
+  "version": "1.0.0",
+  "description": "http://goo.org.il",
   "main": "index.js",
   "engines": {
     "node": ">=4.2.0",
     "npm": "^3.0.0"
   },
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dist/*",
     "compile": "better-npm-run compile",
     "lint": "eslint src tests server",
     "lint:fix": "npm run lint -- --fix",
@@ -72,10 +72,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davezuko/react-redux-starter-kit.git"
+    "url": "git+https://github.com/goooseman/game-of-ohms-website/tree/gh-pages"
   },
-  "author": "David Zukowski <david@zuko.me> (http://zuko.me)",
-  "license": "MIT",
+  "author": "Goooseman <inbox@goooseman.ru> (http://goooseman.ru)",
   "dependencies": {
     "babel-cli": "^6.5.1",
     "babel-core": "^6.3.17",
