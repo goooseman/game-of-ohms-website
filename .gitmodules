@@ -1,0 +1,4 @@
+[submodule "dist"]
+	path = dist
+	url = git@github.com:goooseman/game-of-ohms-website.git
+	branch = gh-pages
